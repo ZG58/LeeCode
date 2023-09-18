@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01数组", "01数组", "{E202878F-7F5D-43B3-AD95-C515B933044D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02链表", "02链表", "{D2E595C1-A27C-4E27-A9CD-A06E4801BE80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03哈希表", "03哈希表", "{D98F9A0F-68CA-4168-BCDA-0E795503129A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04字符串", "04字符串", "{EF966B37-10DE-4FD5-B1D9-CCE87BF2B287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05双指针法", "05双指针法", "{A9DBBFB6-E19A-47FB-9694-7A705B109595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06栈与队列", "06栈与队列", "{40FB713E-2C9B-44AD-A359-C181EC1B332F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07二叉树", "07二叉树", "{92842DFD-4894-4C79-95BA-56CD38BB2943}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08回溯算法", "08回溯算法", "{C9EC1640-86AE-4CFC-8C0F-EE8B2FC60D47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09贪心算法", "09贪心算法", "{D5778032-A15B-4CAC-871B-E039C5CA4C3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10动态规划", "10动态规划", "{75BA5104-DC29-4CA6-A694-8304695FE89F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11单调栈", "11单调栈", "{489A5A0C-059E-43DD-A4AE-590B38F49185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12图论", "12图论", "{D86BCA73-4EF6-4A64-A345-D9E12EA5A428}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二分法704", "二分法704\二分法704.vcxproj", "{03027E82-D1AD-4BF1-B59A-280BCD68317E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "移除元素27", "移除元素27\移除元素27.vcxproj", "{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Debug|x64.ActiveCfg = Debug|x64
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Debug|x64.Build.0 = Debug|x64
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Debug|x86.ActiveCfg = Debug|Win32
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Debug|x86.Build.0 = Debug|Win32
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Release|x64.ActiveCfg = Release|x64
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Release|x64.Build.0 = Release|x64
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Release|x86.ActiveCfg = Release|Win32
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E}.Release|x86.Build.0 = Release|Win32
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Debug|x64.ActiveCfg = Debug|x64
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Debug|x64.Build.0 = Debug|x64
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Debug|x86.ActiveCfg = Debug|Win32
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Debug|x86.Build.0 = Debug|Win32
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Release|x64.ActiveCfg = Release|x64
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Release|x64.Build.0 = Release|x64
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Release|x86.ActiveCfg = Release|Win32
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03027E82-D1AD-4BF1-B59A-280BCD68317E} = {E202878F-7F5D-43B3-AD95-C515B933044D}
+		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B} = {E202878F-7F5D-43B3-AD95-C515B933044D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C99406F-228C-4D43-AB79-793AA7B51349}
+	EndGlobalSection
+EndGlobal
