@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二分法704", "二分法70
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "移除元素27", "移除元素27\移除元素27.vcxproj", "{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有序数组的平方977", "有序数组的平方907\有序数组的平方907.vcxproj", "{399DC142-A2BF-4C2F-B39F-794FF27C170F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -55,6 +57,14 @@ Global
 		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Release|x64.Build.0 = Release|x64
 		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Release|x86.ActiveCfg = Release|Win32
 		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B}.Release|x86.Build.0 = Release|Win32
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Debug|x64.ActiveCfg = Debug|x64
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Debug|x64.Build.0 = Debug|x64
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Debug|x86.ActiveCfg = Debug|Win32
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Debug|x86.Build.0 = Debug|Win32
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Release|x64.ActiveCfg = Release|x64
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Release|x64.Build.0 = Release|x64
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Release|x86.ActiveCfg = Release|Win32
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +72,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{03027E82-D1AD-4BF1-B59A-280BCD68317E} = {E202878F-7F5D-43B3-AD95-C515B933044D}
 		{35E56B0A-2BA8-4678-B8B1-AADED2BD910B} = {E202878F-7F5D-43B3-AD95-C515B933044D}
+		{399DC142-A2BF-4C2F-B39F-794FF27C170F} = {E202878F-7F5D-43B3-AD95-C515B933044D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C99406F-228C-4D43-AB79-793AA7B51349}
