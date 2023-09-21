@@ -30,7 +30,7 @@ public:
 			}
 			startx++;
 			starty++;
-			count += 1;
+			offset += 1;
 		}
 		if (n % 2) {
 			res[mid][mid] = count;
