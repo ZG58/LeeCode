@@ -12,6 +12,25 @@ struct ListNode {
 
 class Solution {
 public:
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode* dummyHead = new ListNode(0);
+        dummyHead->next = head;
+        ListNode* cur = dummyHead;
+        while (cur->next != nullptr) {
+            if (cur->next->val == val) {
+                ListNode* temp = cur->next;
+                cur->next = cur->next->next;
+                delete temp;
+            }
+            else {
+                cur = cur->next;
+            }
+        }
+        head = dummyHead->next;
+        delete dummyHead;
+        return head;
+    }
+
     ListNode* reverseList(ListNode* head) {
         if (head == nullptr) return nullptr;
         if (head->next == nullptr) return head;
@@ -23,12 +42,30 @@ public:
 
     ListNode* swapPairs(ListNode* head) {
         if (head == nullptr) return nullptr;
-        if (head->next == nullptr) return head; 
+        if (head->next == nullptr) return head;
         ListNode* last = swapPairs(head->next->next);
         ListNode* temp = head->next;
         head->next->next = head;
         head->next = last;
         return temp;
+    }
+
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode* dummyHead = new ListNode(0);
+        dummyHead->next = head;
+        ListNode* fast = dummyHead;
+        ListNode* slow = dummyHead;
+        while (n-- && fast != nullptr) {
+            fast = fast->next;
+        }
+        while (fast->next != nullptr) {
+            fast = fast->next;
+            slow = slow->next;
+        }
+        ListNode* temp = slow->next;
+        slow->next = slow->next->next;
+        delete temp;
+        return dummyHead->next;
     }
 };
 
@@ -56,7 +93,7 @@ int main()
     printList(head);
 
     Solution solution;
-    ListNode* newHead = solution.swapPairs(head);
+    ListNode* newHead = solution.removeNthFromEnd(head, 2);
 
     std::cout << "List after rever: ";
     printList(newHead);

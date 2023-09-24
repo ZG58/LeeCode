@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "反转链表206", "反转�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两两交换链表中的节点24", "两两交换链表中的节点24\两两交换链表中的节点24.vcxproj", "{10B5AF7F-2D3E-4D1C-8292-A55A532E9C1E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除链表的倒数第N个节点19", "删除链表的倒数第N个节点19\删除链表的倒数第N个节点19.vcxproj", "{5060322E-232B-4278-90D6-08CD13153B9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -125,6 +127,14 @@ Global
 		{10B5AF7F-2D3E-4D1C-8292-A55A532E9C1E}.Release|x64.Build.0 = Release|x64
 		{10B5AF7F-2D3E-4D1C-8292-A55A532E9C1E}.Release|x86.ActiveCfg = Release|Win32
 		{10B5AF7F-2D3E-4D1C-8292-A55A532E9C1E}.Release|x86.Build.0 = Release|Win32
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Debug|x64.ActiveCfg = Debug|x64
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Debug|x64.Build.0 = Debug|x64
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Debug|x86.Build.0 = Debug|Win32
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Release|x64.ActiveCfg = Release|x64
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Release|x64.Build.0 = Release|x64
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Release|x86.ActiveCfg = Release|Win32
+		{5060322E-232B-4278-90D6-08CD13153B9C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +149,7 @@ Global
 		{0CE692AE-3AD6-484A-88A9-E4895DEB790B} = {D2E595C1-A27C-4E27-A9CD-A06E4801BE80}
 		{42965309-E730-48AF-A18C-12E537F48AF6} = {D2E595C1-A27C-4E27-A9CD-A06E4801BE80}
 		{10B5AF7F-2D3E-4D1C-8292-A55A532E9C1E} = {D2E595C1-A27C-4E27-A9CD-A06E4801BE80}
+		{5060322E-232B-4278-90D6-08CD13153B9C} = {D2E595C1-A27C-4E27-A9CD-A06E4801BE80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C99406F-228C-4D43-AB79-793AA7B51349}
