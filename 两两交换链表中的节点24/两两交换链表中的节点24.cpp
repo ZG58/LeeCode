@@ -23,7 +23,7 @@ public:
 
     ListNode* swapPairs(ListNode* head) {
         if (head == nullptr) return nullptr;
-        if (head->next == nullptr) return head; 
+        if (head->next == nullptr) return head;
         ListNode* last = swapPairs(head->next->next);
         ListNode* temp = head->next;
         head->next->next = head;
