@@ -72,11 +72,11 @@ public:
         ListNode* curA = headA;
         ListNode* curB = headB;
         int lenA = 0, lenB = 0;
-        while (curA == nullptr) {
+        while (curA != nullptr) {
             lenA++;
             curA = curA->next;
         }
-        while (curB == nullptr) {
+        while (curB != nullptr) {
             lenB++;
             curB = curB->next;
         }
@@ -91,7 +91,7 @@ public:
             curA = curA->next;
         }
         while (curA != nullptr) {
-            if (curA = curB) return curA;
+            if (curA == curB) return curA;
             curA = curA->next;
             curB = curB->next;
         }
@@ -119,20 +119,39 @@ int main()
     head->next->next->next->next->next = new ListNode(5);
     head->next->next->next->next->next->next = new ListNode(6);
 
+    ListNode* head2 = new ListNode(1);
+    head2->next = new ListNode(6);
+    head2->next->next = head->next->next->next;
+
     std::cout << "Original List: ";
     printList(head);
 
     Solution solution;
-    ListNode* newHead = solution.removeNthFromEnd(head, 2);
+
+    ListNode* intersectionNode = solution.getIntersectionNode(head, head2);
+
+    if (intersectionNode != nullptr) {
+        cout << "交点的值为: " << intersectionNode->val << endl;
+    }
+    else {
+        cout << "没有交点" << endl;
+    }
+
 
     std::cout << "List after rever: ";
-    printList(newHead);
+    printList(head2);
 
-    while (newHead != nullptr) {
-        ListNode* temp = newHead;
-        newHead = newHead->next;
-        delete temp;
-    }
+    //while (head2 != nullptr) {
+    //    ListNode* temp = head2;
+    //    head2 = head2->next;
+    //    delete temp;
+    //}
+
+    //while (head != nullptr) {
+    //    ListNode* temp = head;
+    //    head = head->next;
+    //    delete temp;
+    //}
 
     return 0;
 }
