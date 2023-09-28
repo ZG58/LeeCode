@@ -7,13 +7,35 @@ using namespace std;
 
 class Solution {
 public:
-    bool isAnagram(string s, string t) {
+    bool isAnagram1(string s, string t) {
         if (s.length() != t.length()) {
             return false;
         }
         sort(s.begin(), s.end());
         sort(t.begin(), t.end());
         return s == t;
+    }
+
+    bool isAnagram(string s, string t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        
+        int charCount[26] = {};
+
+        for (char c : s) {
+            charCount[c - 'a']++;
+        }
+
+        for (char c : t) {
+            if (charCount[c - 'a'] > 0) {
+                charCount[c - 'a']--;
+            }
+            else {
+                return false;
+            }
+        }
+        return true;
     }
 };
 
