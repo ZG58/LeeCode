@@ -10,7 +10,7 @@ public:
 		unordered_map<int, int> umap;
 		for (int a : nums1) {
 			for (int b : nums2) {
-				umap[a, b]++;
+				umap[a + b]++;
 			}
 		}
 		int count = 0;
