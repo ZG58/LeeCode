@@ -10,7 +10,6 @@ public:
 	vector<vector<int>> threeSum(vector<int>& nums) {
 		vector<vector<int>> result;
 		sort(nums.begin(), nums.end());
-
 		for (int i = 0; i < nums.size(); i++) {
 			if (nums[i] > 0) {
 				break;
@@ -41,7 +40,7 @@ int main() {
 	Solution solution;
 
 	// 测试示例
-	std::vector<int> nums = { -1, 0, 1, 2, -1, -4 };
+	std::vector<int> nums = { 0,2,2,3,0,1,2,3,-1,-4,2 };
 	std::vector<std::vector<int>> result = solution.threeSum(nums);
 
 	// 输出结果
