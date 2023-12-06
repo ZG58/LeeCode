@@ -1,20 +1,63 @@
-﻿// 四数之和18.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+﻿#include <iostream>
+#include <vector>
+#include <algorithm>
 
-#include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+class Solution {
+public:
+	vector<vector<int>> fourSum(vector<int>& nums, int target) {
+		vector<vector<int>> result;
+		sort(nums.begin(), nums.end());
+		for (int k = 0; k < nums.size(); k++) {
+			if (nums[k] > target && nums[k] >= 0) {
+				break;
+			}
+			if (k > 0 && nums[k] == nums[k - 1]) {
+				continue;
+			}
+			for (int i = k + 1; i < nums.size(); i++) {
+				if (nums[k] + nums[i] > target && nums[k] + nums[i] >= 0) {
+					break;
+				}
+				if (i > k + 1 && nums[i] == nums[i - 1]) {
+					continue;
+				}
+				int left = i + 1;
+				int right = nums.size() - 1;
+				while (left < right) {
+					if ((long)nums[k] + nums[i] + nums[left] + nums[right] > target) right--;
+					else if ((long)nums[k] + nums[i] + nums[left] + nums[right] < target) left++;
+					else {
+						result.push_back(vector<int>{nums[k], nums[i], nums[left], nums[right]});
+						while (right > left && nums[right] == nums[right - 1]) right--;
+						while (right > left && nums[left] == nums[left + 1]) left++;
+						right--;
+						left++;
+					}
+
+				}
+			}
+		}
+		return result;
+	}
+};
+
+int main() {
+	Solution solution;
+
+	// 测试示例
+	std::vector<int> nums = { 0,2,2,3,0,1,2,3,-1,-4,2 };
+	std::vector<std::vector<int>> result = solution.fourSum(nums, 4);
+
+	// 输出结果
+	for (const auto& triplet : result) {
+		std::cout << "[ ";
+		for (int num : triplet) {
+			std::cout << num << " ";
+		}
+		std::cout << "]" << std::endl;
+	}
+
+	return 0;
 }
-
-// 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
-// 调试程序: F5 或调试 >“开始调试”菜单
-
-// 入门使用技巧: 
-//   1. 使用解决方案资源管理器窗口添加/管理文件
-//   2. 使用团队资源管理器窗口连接到源代码管理
-//   3. 使用输出窗口查看生成输出和其他消息
-//   4. 使用错误列表窗口查看错误
-//   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
-//   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
