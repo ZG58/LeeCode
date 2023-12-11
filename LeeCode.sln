@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契数509", "斐�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "爬楼梯70", "爬楼梯70\爬楼梯70.vcxproj", "{E894B157-2E76-4FAD-98E5-0435DA9C6339}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "使用最小花费爬楼梯746", "使用最小花费爬楼梯746\使用最小花费爬楼梯746.vcxproj", "{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{E894B157-2E76-4FAD-98E5-0435DA9C6339}.Release|x64.Build.0 = Release|x64
 		{E894B157-2E76-4FAD-98E5-0435DA9C6339}.Release|x86.ActiveCfg = Release|Win32
 		{E894B157-2E76-4FAD-98E5-0435DA9C6339}.Release|x86.Build.0 = Release|Win32
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Debug|x64.ActiveCfg = Debug|x64
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Debug|x64.Build.0 = Debug|x64
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Debug|x86.Build.0 = Debug|Win32
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Release|x64.ActiveCfg = Release|x64
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Release|x64.Build.0 = Release|x64
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Release|x86.ActiveCfg = Release|Win32
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -365,6 +375,7 @@ Global
 		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A} = {D5778032-A15B-4CAC-871B-E039C5CA4C3D}
 		{5C97B859-5586-4222-8C04-D763D1C5EAB1} = {75BA5104-DC29-4CA6-A694-8304695FE89F}
 		{E894B157-2E76-4FAD-98E5-0435DA9C6339} = {75BA5104-DC29-4CA6-A694-8304695FE89F}
+		{A9313CF2-FA1F-4A63-BCE1-C72F036A7BD9} = {75BA5104-DC29-4CA6-A694-8304695FE89F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C99406F-228C-4D43-AB79-793AA7B51349}
