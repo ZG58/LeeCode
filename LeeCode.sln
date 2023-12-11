@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "分发饼干455", "分发�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "摆动序列376", "摆动序列376\摆动序列376.vcxproj", "{EE16D28F-99B9-42EE-B3C7-A551292D8E1C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最大子序和53", "最大子序和53\最大子序和53.vcxproj", "{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{EE16D28F-99B9-42EE-B3C7-A551292D8E1C}.Release|x64.Build.0 = Release|x64
 		{EE16D28F-99B9-42EE-B3C7-A551292D8E1C}.Release|x86.ActiveCfg = Release|Win32
 		{EE16D28F-99B9-42EE-B3C7-A551292D8E1C}.Release|x86.Build.0 = Release|Win32
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Debug|x64.ActiveCfg = Debug|x64
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Debug|x64.Build.0 = Debug|x64
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Debug|x86.Build.0 = Debug|Win32
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Release|x64.ActiveCfg = Release|x64
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Release|x64.Build.0 = Release|x64
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Release|x86.ActiveCfg = Release|Win32
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -332,6 +342,7 @@ Global
 		{E872D784-6438-4E75-8E81-FF244212A996} = {EF966B37-10DE-4FD5-B1D9-CCE87BF2B287}
 		{53049ABA-5384-4457-8553-ECA07565DD6D} = {D5778032-A15B-4CAC-871B-E039C5CA4C3D}
 		{EE16D28F-99B9-42EE-B3C7-A551292D8E1C} = {D5778032-A15B-4CAC-871B-E039C5CA4C3D}
+		{A96539DA-A36B-4E7F-BE6A-296FE5AA9A0A} = {D5778032-A15B-4CAC-871B-E039C5CA4C3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C99406F-228C-4D43-AB79-793AA7B51349}
